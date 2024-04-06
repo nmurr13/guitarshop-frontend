@@ -6,7 +6,8 @@ const Index = (props) => {
   const allGuitars = useLoaderData()
  return <>
     <div>
-    <h1>Add A Guitar</h1>
+        <h1>GUITAR GARAGE</h1>
+        <img src="guitargarage.png"></img>
         <Form action={"create/"} method="POST">
             <label htmlFor="brand">
                 Brand Name
@@ -59,6 +60,7 @@ const Index = (props) => {
             <button>Add New Guitar</button>
         </Form>
   </div>
+  <h1>LIST OF GUITARS</h1>
   {allGuitars.map((guitar, i) => <Guitar guitar={guitar} key={i}/>)}
 </>
 };

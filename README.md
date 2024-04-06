@@ -1,8 +1,31 @@
-# React + Vite
+**Mini Project #4: Python on Django with React**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+| Field | Detail |
+|-------|--------|
+| Project Name | {Guitar Garage}|
+| Description | {A place for musicians to sell guitars} |
+| Developers | {Nicholas Murray} |
+| Live Website | {coming soon} |
+| Repo | {https://github.com/nmurr13/guitarshop-frontend} |
 
-Currently, two official plugins are available:
+## Problem Being Solved and Target Market
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a web application where musicians can post, edit, and view a variety of guitars
+for sale.
+
+## User Stories
+
+- User should be able to see the site on desktop and mobile
+- User can create a guitar
+- User can see an inventory of all their guitars
+- User can update guitars
+- User can delete guitars when they are "sold"
+
+## Components
+- React/Vite frontend that consumes the Django API
+- Milligram Styling
+
+![Alt text](https://i.ibb.co/JqNCK8N/Screen-Shot-2024-04-06-at-5-35-25-AM.png)
+
+
+
