@@ -5,7 +5,7 @@
 | Project Name | {Guitar Garage}|
 | Description | {A place for musicians to sell guitars} |
 | Developers | {Nicholas Murray} |
-| Live Website | {coming soon} |
+| Live Website | {https://comforting-gaufre-c1169d.netlify.app/} |
 | Repo | {https://github.com/nmurr13/guitarshop-frontend} |
 
 ## Problem Being Solved and Target Market
