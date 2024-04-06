@@ -68,7 +68,7 @@ export const updateAction = async ({request, params}) => {
         body: JSON.stringify(updatedGuitar)
     })
     // redirect to the Show page
-    return redirect(`guitars/${id}`)
+    return redirect(`/`)
 }
 // Delete Action from a form submission to `delete/:id`
 export const deleteAction = async ({params}) => {
